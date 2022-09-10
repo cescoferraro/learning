@@ -14,3 +14,4 @@ jobs:
           username: 'cescoferraro'
           reponame: 'learning'
           token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+          cname: vue.cescoferraro.com
