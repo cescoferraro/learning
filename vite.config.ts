@@ -6,7 +6,7 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === "production" ? "/hello-world/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/vue/" : "/",
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
