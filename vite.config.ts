@@ -5,7 +5,7 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: process.env.NODE_ENV === "production" ? "/learning/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/vue/" : "/",
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
